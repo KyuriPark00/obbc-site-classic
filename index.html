@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Open Bible Baptist Church</title>
+
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Koh+Santepheap:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="col-span-full">
+        <!-- 데스크탑 메뉴 -->
+        <nav class="nav desktop-nav">
+            <a href="index.html"><img src="images/general/logo-white.svg" alt="Logo" id="desktop-logo" /></a>
+            <ul class="menu">
+                <li class="has-dropdown">
+                    <a href="#">About</a>
+                    <ul class="dropdown" id="desktop-li">
+                    <li><a href="what-we-believe.html">What We Believe</a></li>
+                    <li><a href="who-we-are.html">Who We Are</a></li>
+                    </ul>
+                </li>
+                <li><a href="sermons.html">Sermons</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- 모바일 메뉴 -->
+        <nav class="nav mobile-nav">
+            <div class="mobile-header">
+            <a href="index.html"><img src="images/general/logo-green.svg" alt="Logo" id="mobile-logo"/></a>
+            <button class="hamburger" aria-label="Toggle menu">&#9776;</button>
+            </div>
+            <ul class="mobile-menu hidden">
+                <li class="has-dropdown">
+                    <a href="#">About</a>
+                    <ul class="dropdown">
+                    <li><a href="what-we-believe.html">What We Believe</a></li>
+                    <li><a href="who-we-are.html">Who We Are</a></li>
+                    </ul>
+                </li>
+                <li><a href="sermons.html">Sermons</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 1. Hero -->
+    <section id="hero">
+        <div class="hero-overlay">
+            <div class="hero-content">
+                <h2>WELCOME TO OPEN BIBLE BAPTIST CHURCH!</h2>
+                <p>
+                    We are a church where the love of God’s Word and the love of people meet together. 
+                    <br>
+                    Whether your newly searching to find something more to life, to understand more of who God is, or your desiring to grow in your faith in Christ through the living truths of the Bible, our doors are open to you.
+                </p>
+                <div class="hero-buttons">
+                    <a href="who-we-are.html" class="btn-clear">Who We Are</a>
+                    <a href="sermons.html" class="btn">Past Sermons</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. Time & Location -->
+    <section id="time-location-bar">
+        <div class="info-box">
+            <div class="text">
+                <p class="label">Wednesday 7:00 PM</p>
+                <p class="time-location-sub">Prayer & Bible Study</p>
+            </div>
+        </div>
+
+        <div class="info-box">
+            <div class="text">
+                <p class="label">Sunday 10:30 AM</p>
+                <p class="time-location-sub">Morning Service & Junior Church</p>
+            </div>
+        </div>
+
+        <div class="info-box">
+            <div class="text">
+                <p class="label">9060 Hacienda Main Rd</p>
+                <p class="time-location-sub">Aylmer, ON N5H 2R130</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Upcoming Event -->
+     <!-- event-card over-lay 창으로 처리 -->
+    <section id="upcoming-event-con">
+        <h3>Upcoming Events</h3>
+
+        <!-- Mobile Carousel -->
+        <div class="carousel">
+            <div class="event-card">
+                <div class="date-badge">
+                    <span class="day">Tue</span>
+                    <span class="date">18</span>
+                    <span class="month">July</span>
+                </div>
+                <img src="images/photos/biblestudy.png" alt="Event2">
+                <div class="event-info">
+                    <h4>Event Name 2</h4>
+                    <a href="#" class="btn-clear-to-dark">More Details</a>
+                </div>
+            </div>
+            <div class="carousel-indicator">
+                <span></span>
+                <span class="active"></span>
+                <span></span>
+            </div>
+        </div>
+
+        <!-- Desktop Cards -->
+        <div class="events-grid">
+            <div class="event-card">
+                <div class="date-badge">
+                    <span class="day">Wed</span>
+                    <span class="date">25</span>
+                    <span class="month">June</span>
+                </div>
+                <img src="images/photos/potluck.jpg" alt="Event 1">
+                <div class="event-info">
+                    <h4>Events Name 1</h4>
+                    <a href="#" class="btn-clear-to-dark">More Details</a>
+                </div>
+            </div>
+
+            <div class="event-card">
+                <div class="date-badge">
+                    <span class="day">Wed</span>
+                    <span class="date">25</span>
+                    <span class="month">June</span>
+                </div>
+                <img src="images/photos/biblestudy.png" alt="Event 2">
+                <div class="event-info">
+                    <h4>Event Name 2</h4>
+                    <a href="#" class="btn-clear-to-dark">More Details</a>
+                </div>
+            </div>
+
+            <div class="event-card">
+                <div class="date-badge">
+                    <span class="day">Mon</span>
+                    <span class="date">04</span>
+                    <span class="month">July</span>
+                </div>
+                <img src="images/photos/girll.jpg" alt="Event 3">
+                <div class="event-info">
+                    <h4>Event Name 3</h4>
+                    <a href="#" class="btn-clear-to-dark">More Details</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="see-all-wrapper">
+            <a href="#" class="btn">See All Events</a>
+        </div>
+    </section>
+    
+    <!-- 4. What we believe -->
+    <section id="what-we-believe-con">
+        <div class="sec-4-overlay">
+            <h3>What we Believe</h3>
+            <p class="des-italic-light">Where Does It Come From</p>
+              <p>
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.
+              </p>
+              <a href="#" class="btn-clear">Learn More</a>
+        </div>
+        <img src="images/photos/sec-4-bg.jpg" alt="Background image of section 4">
+    </section>
+
+    <!-- 5. Who We Are -->
+    <section id="who-we-are-con">
+        <div class="who-we-are-mobile">
+            <h3>Who we Are</h3>
+            <img src="images/photos/preaching.jpg" alt="Image of pastor preaching">
+            <p>is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+
+        <div class="who-we-are-desktop">
+            <div class="who-we-are-text-con">
+                <h3>Who we Are</h3> 
+                <p>is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+
+            <div class="who-we-are-img">
+                <img src="images/photos/preaching.jpg" alt="Image of pastor preaching">
+            </div>
+        </div>
+    </section>
+    
+    <!-- 6. Query Icons -->
+    <section id="query-icons-con">
+        <div class="icons-wrapper">
+            <div class="query-icon">
+                <img src="images/icons/donate icon.png" alt="Donation icon">
+                <p>We appreciate your donation</p>
+            </div>
+
+            <div class="query-icon">
+                <img src="images/icons/help icon.png" alt="Help icon">
+                <p>Let us know how we can pray for you</p>
+            </div>
+
+            <div class="query-icon">
+                <img src="images/icons/question icon.png" alt="Question icon">
+                <p>Feel free to ask questions</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. Donation -->
+    <section id="donation-con">
+        <h3>Thank You for Your Support</h3>
+        <!-- <img src="images/icons/donate.png" alt="icon of donation"> -->
+        <p>Every gift, big or small, helps us continue the work God has called us to do.</p>
+
+        <h4>E-TRANSFERS</h4>
+        <p>Email amount to <a class="underline" href="mailto:secretary@openbible.ca">secretary@openbible.ca</a></p>
+    </section>
+
+    <section id="contact-form-con">
+        <div class="contact-left">
+            <h3>How Can I Help You?</h3>
+
+            <p>We’re here for you! If you have any questions or prayer requests, simply fill out the form on the right— we’d love to hear from you.</p>
+
+            <p>You can also email us. <a class="underline" href="mailto:secretary@openbible.ca">secretary@openbible.ca</a></p>
+        </div>
+
+        <div class="contact-right">
+            <form class="contact-form">
+                <select name="subject" required>
+                    <option value="prayer">Prayer Request</option>
+                    <option value="question">Question</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <input type="text" name="firstName" placeholder="First Name" required>
+                <input type="text" name="lastName" placeholder="Last Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+
+                <textarea name="message" rows="5" placeholder="Message" required></textarea>
+                <button class="btn" type="submit">Submit</button>
+            </form>
+        </div>  
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-left">
+            <a href="index.html"><img src="images/general/logo-white.svg" alt="White Logo"></a>
+            <p>Sun 9060 Hacienda Main Rd, Aylmer, ON N5H 2R130</p>
+            <a class="email-a" href="mailto:secretary@openbible.ca">secretary@openbible.ca</a>
+            <p>(519) 773-3303</p>
+        </div>
+
+        <div class="footer-middle">
+            <p class="footer-heading">Menu</p>
+            <a href="index.html">Home</a>
+            <a href="what-we-believe.html">What we Believe</a>
+            <a href="who-we-are.html">Who We are</a>
+            <a href="sermons.html">Sermons</a>
+            <a href="events.html">Events</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <div class="footer-right">
+            <p class="footer-heading">Opening Hours</p>
+            <p>Mon : Closed</p>
+            <p>Tue - Wed : 9:00 am - 6:00 pm</p>
+            <p>Thu - Fri : 9:00 am - 6:00 pm</p>
+            <p>Sat - Sun : 9:00 am - 8:00 pm</p>
+        </div>
+    </footer>   
+
+    <script src="js/main.js"></script>
+</body>
+</html>
